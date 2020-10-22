@@ -1,0 +1,10 @@
+Inheritance is a type of OOPs in which a class is inherited 
+from other classes
+
+There are Four Types of Inheritance:-
+1. Single Inheritance - A single class id derived from single class
+2. Multiple Inheritance - A derived class with more than one base class
+3. Herichal Inheritance - Several derived classes from a single class
+4. Multilevel Inheritance - deriving a class from already derived class
+5. Hybrid Inheritance - is a combination of Multiple Inheritance and 
+Multilevel Inheritance and Herichal Inheritance

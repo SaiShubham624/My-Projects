@@ -1,0 +1,35 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["keyword.control.java","keyword.control.new.java"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                    
+                }
+            },
+            {
+                "scope": ["comment.line.double-slash.java", "punctuation.definition.comment.java",
+                "punctuation.definition.comment.java", "comment.block.java","keyword.control.ternary.java",
+                "keyword.control"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope":"entity.name.type.class.java",
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+        ]
+        
+    },
+    "editor.fontFamily": "'MV Boli', 'Courier New', monospace", 
+    "editor.fontSize": 18,
+    "code-runner.customCommand": "echo Hello",
+
+    
+}

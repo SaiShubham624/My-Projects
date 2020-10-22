@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "typeinfo": "cpp"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["keyword.control.if.cpp", "keyword.control.else.cpp", "keyword.control.directive.include.cpp", "keyword.control.return.cpp", "punctuation.definition.comment.cpp", "comment.line.double-slash.cpp"
+                
+                 ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope":["variable.other.global
+                variable ", "string constant.other.placeholder"
+                , "meta.body.function.definition.cpp"
+                ],
+                "settings": {
+                    "foreground": "#82AAFF",
+                }
+            }
+        ]
+    },
+    "editor.fontFamily": "'MV Boli', 'Courier New', monospace"
+}

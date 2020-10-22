@@ -1,0 +1,5 @@
+For Protected Numbers:
+                Public Derivation       Private Derivation      Protected Derivation
+Public          Public                  Private                 Protected
+Private         Not Inherited           Not Inherited           Not Inherited
+Protected       Public                  Private                 Protected
