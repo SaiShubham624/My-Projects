@@ -11,9 +11,16 @@
             },
             {
                 "scope":["punctuation.definition.comment.c", "comment.line.double-slash.c", "punctuation.definition.comment.begin.c", "punctuation.definition.comment.end.c", "comment.block.c"
+                "punctuation.definition.string.end.c"
                 ],
                 "settings": {
                     "fontStyle": ""
+                }
+            },
+            {
+                "scope":"constant.other.placeholder.c",
+                "settings": {
+                    "foreground": "#276fc7"
                 }
             }
         ]
