@@ -8,6 +8,13 @@
                 "settings": {
                     "fontStyle": ""
                 }
+            },
+            {
+                "scope":["punctuation.definition.comment.c", "comment.line.double-slash.c", "punctuation.definition.comment.begin.c", "punctuation.definition.comment.end.c", "comment.block.c"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
             }
         ]
     }
