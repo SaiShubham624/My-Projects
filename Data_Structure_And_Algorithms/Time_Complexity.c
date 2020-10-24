@@ -1,6 +1,6 @@
-#include ≤iostream≥
+#include <stdio.h>
 int main(){
-pritnf ("Now I am learning Time Complexity");
+printf("Now I am learning Best, Worst, Expected Case");
 
 return 0;
 }
