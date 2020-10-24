@@ -10,12 +10,24 @@
                 }
             },
             {
-                "scope":["punctuation.definition.comment.c", "comment.line.double-slash.c", "punctuation.definition.comment.begin.c", "punctuation.definition.comment.end.c", "comment.block.c"
+                "scope":["punctuation.definition.comment.c", "comment.line.double-slash.c", "punctuation.definition.comment.begin.c", "punctuation.definition.comment.end.c", "comment.block.c",
+                    "punctuation.definition.comment.cpp", "comment.line.double-slash.cpp", "punctuation.definition.comment.begin.cpp", "punctuation.definition.comment.end.cpp", "comment.block.cpp",
                 ],
                 "settings": {
                     "fontStyle": ""
                 }
+            },
+            {
+                "scope":"variable.other.global",
+                "settings": {
+                    "foreground": "#82AAFF"
+                }
+                
             }
         ]
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp"
     }
 }
