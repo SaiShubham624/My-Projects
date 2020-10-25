@@ -16,36 +16,36 @@ void Linear(int arr[], int size, int element)
     }
 }
 
-int BinarySearch(int arr[], int size, int element)
-{
-    int mid, high = size - 1, low = 0;
+// int BinarySearch(int arr[], int size, int element)
+// {
+//     int mid, high = size - 1, low = 0;
 
-    mid = (low + high) / 2;
-    while (low <= high)
-    {
-        if (arr[mid] == element)
-        {
-            return mid;
-        }
-        if (arr[mid] < element)
-        {
-            low = mid + 1;
-        }
-        else
-        {
-            high = mid - 1;
-        }
-    }
-    return -1;
-}
+//     mid = (low + high) / 2;
+//     while (low <= high)
+//     {
+//         if (arr[mid] == element)
+//         {
+//             return mid;
+//         }
+//         if (arr[mid] < element)
+//         {
+//             low = mid + 1;
+//         }
+//         else
+//         {
+//             high = mid - 1;
+//         }
+//     }
+//     return -1;
+// }
 
 int main()
 {
     int Marks[4] = {34, 45, 56, 77};
-    // Linear(Marks, 4, 67);
-    int size = sizeof(Marks)/sizeof(int);
-    int element = 34;
-    int Result = BinarySearch(Marks, size, element);
-    cout << "The Element is 77 is found at "<< Result << endl;
+    Linear(Marks, 4, 77);
+    // int size = sizeof(Marks)/sizeof(int);
+    // int element = 34;
+    // int Result = BinarySearch(Marks, size, element);
+    // cout << "The Element is 77 is found at "<< Result << endl;
     return 0;
 }
