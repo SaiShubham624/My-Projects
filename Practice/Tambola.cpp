@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-
+using namespace std;
 int Insertion (int arr[], int size, int capacity, int element, int index){
  if(size >= capacity){
    return -1;
@@ -16,8 +16,9 @@ int Insertion (int arr[], int size, int capacity, int element, int index){
 int Deletion(int arr[], int size, int index){
   for(int i = index; i < size - 1; i++){
     arr[i] = arr[i + 1];
+    return arr[i];
   }
-  return i;
+  
 }
 int main (){
     cout << "Hi" << endl;
