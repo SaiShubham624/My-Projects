@@ -1,6 +1,8 @@
 {
-    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontFamily": "'Fantasque Sans Mono','Fira Code'",
+    "editor.fontWeight": "100",
     "editor.fontSize": 18,
+    "editor.fontLigatures": true,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
