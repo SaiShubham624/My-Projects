@@ -14,11 +14,23 @@ if(Ptr->Top == -1){
     }
 }
 void IsFull(Stack *Ptr){
+   static int Count;
     if(Ptr->Top == Ptr->Size - 1){
         cout << "The Stack is Full" << endl;
+        Count = 1;
     }else{
         cout << "The Stack is Not Full" << endl;
+        Count = 0;
     }
+}
+void Push(Stack *Ptr, int Data){
+  if(Count == 1){
+    cout << "Can't Push The Stack is Full" << endl;
+  }else{
+    Ptr->Arr[Ptr->Top+1] = Data;
+    Ptr->Top++;
+  }
+  
 }
 
 int main()
