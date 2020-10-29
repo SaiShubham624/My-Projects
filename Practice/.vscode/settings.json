@@ -2,11 +2,14 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-                "scope": "keyword.control",
+                "scope": ["keyword.control", "punctuation.definition.comment.python",
+                    "comment.line.number-sign.python"
+                ],
                 "settings": {
                     "fontStyle": ""
                 }
             }
+            
         ]
     }
 }
