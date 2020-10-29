@@ -1,7 +1,22 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstdint": "cpp",
+        "cwchar": "cpp",
+        "exception": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -14,8 +29,8 @@
                 }
             },
             {
-                "scope":["variable.other.global
-                variable ", "string constant.other.placeholder"
+                "scope":["variable.other.global"
+                , "string constant.other.placeholder"
                 , "meta.body.function.definition.cpp"
                 ],
                 "settings": {
@@ -24,5 +39,4 @@
             }
         ]
     },
-    "editor.fontFamily": "'MV Boli', 'Courier New', monospace"
 }
