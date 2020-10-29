@@ -22,7 +22,11 @@ int main(){
     Second = (struct Node *) malloc(sizeof(struct Node));
 
     printf("Enter the First Element: ");
+    
     scanf("%d", &Head->Data);
+    if(Head == NULL){
+        Head->Next = NULL;
+    }
     Head->Next = First;
     
     printf("Enter the Second Element: ");

@@ -6,7 +6,7 @@ typedef struct Node{
     struct Node * Next;
 }Node;
 void Traversal(Node *ptr, int size){
-    for(int i = 0; i > size; i++){
+    for(int i = 0; i < size; i++){
         printf("Element %d: %d \n",i+1 ,*ptr);
         ptr = ptr->Next;
     }
@@ -34,6 +34,9 @@ int main(){
 
     printf("Enter the First Element: ");
     scanf("%d", &Head->Data);
+    if(Head->Data == 0){
+        Head->Data = NULL;
+    }
     Head->Next = First;
     
     printf("Enter the Second Element: ");
