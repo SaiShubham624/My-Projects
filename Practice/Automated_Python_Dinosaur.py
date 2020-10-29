@@ -7,7 +7,7 @@ def Hit(key):
     pyautogui.keyDown(key)
 
 def isCollide(data):
-    for i in range(210, 330):
+    for i in range(170, 390):
             for j in range(410, 450):
                 if data[i ,j] < 100:
                     Hit("up")
