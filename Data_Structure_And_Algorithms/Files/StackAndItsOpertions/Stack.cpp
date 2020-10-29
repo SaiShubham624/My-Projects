@@ -22,7 +22,7 @@ int IsFull(Stack *Ptr){
     if(Ptr->Top == Ptr->Size-1){
         return 1;
     }
-    else{
+    else{ 
         return 0;
     }
 }
@@ -43,7 +43,7 @@ int main()
     // Stack S;
     // S.Size = 80;
     // S.Top =
- -1;
+    int a;
     // S.Arr = new int[S.Size];
     Stack *S = new Stack;
     S->Size = 4;
