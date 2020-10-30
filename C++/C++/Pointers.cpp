@@ -8,6 +8,7 @@ class Complex{
 int main()
 {
     
-
+    Complex C;
+    
     return 0;
 }

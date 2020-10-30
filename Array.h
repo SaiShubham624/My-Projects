@@ -58,15 +58,3 @@ public:
         }
     }
 };
-
-int main()
-{
-    Array Marks(10);
-    Marks.Insert(2, 0);
-    Marks.Insert(4, 1);
-    Marks.Insert(3, 1);
-    Marks.Append(45);
-    Marks.Print();
-
-    return 0;
-}
