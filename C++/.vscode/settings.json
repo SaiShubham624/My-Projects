@@ -21,9 +21,9 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-                "scope": ["keyword.control.if.cpp", "keyword.control.else.cpp", "keyword.control.directive.include.cpp", "keyword.control.return.cpp", "punctuation.definition.comment.cpp", "comment.line.double-slash.cpp"
+                "scope": ["comment", "keyword.control"]
                 
-                 ],
+                 ,
                 "settings": {
                     "fontStyle": ""
                 }
@@ -32,6 +32,11 @@
 
         ]
     },
-    "workbench.colorCustomizations": {
-    }
+//    "terminal.integrated.shell.windows": "D:\\Softwares\\Git\\bin\\bash.exe"
+// {
+//     "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+//     "terminal.integrated.shellArgs.windows": [
+//         "/k C:\\PROGRA~2\\Cmder\\vendor\\init.bat"
+//     ]
+// }
 }
