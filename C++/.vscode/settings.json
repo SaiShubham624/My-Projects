@@ -44,7 +44,8 @@
         "utility": "cpp",
         "initializer_list": "cpp",
         "limits": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "list": "cpp"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
