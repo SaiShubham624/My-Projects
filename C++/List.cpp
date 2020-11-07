@@ -1,14 +1,13 @@
 #include<iostream>
 #include<list>
-
-#pragma region // Namespaces Which are Being Used
+ // Namespaces Which are Being Used
 
 using std::cout;
 using std::cin;
 using std::endl;
 using std::getline;
 using std::list;
-#pragma endregion
+
 
 void Display(list<int>& l) {
     list<int> ::iterator TempIter;
