@@ -148,6 +148,7 @@ int main()
         if (AsciiValue == Sarr[0] || AsciiValue == Sarr[1])
         {
             cout << "Enter the Name you want to Find: " << endl;
+	    cin.ignore();
             getline(cin, Names);
             Sai.Search(Names);
         }
@@ -156,6 +157,7 @@ int main()
         else if (AsciiValue == Larr[0] || AsciiValue == Larr[1])
         {
             cout << "Enter the Line you Want to Go: " << endl;
+	    cin.ignore();
             cin>> Lines;
             Sai.Go(Lines);
         }
@@ -164,6 +166,7 @@ int main()
         else if (AsciiValue == Marr[0] || AsciiValue == Marr[1])
         {
             cout << "Enter the Name of the New Member: " << endl;
+	    cin.ignore();
             getline(cin, Person_Name);
             
             cout << "Enter the Age of the New Member: " << endl;
