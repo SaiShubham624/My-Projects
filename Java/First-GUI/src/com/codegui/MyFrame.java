@@ -1,3 +1,5 @@
+package com.codegui;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,6 +9,7 @@ public class MyFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Telling the Windows that Close the Window when hit on the Close Button
         this.setResizable(Resizable); // This Line Means that No User can the Size of the Window
         this.setSize(Size[0], Size[1]); // Setting the Size of the Window
+
         this.setVisible(true); // Telling the Windows that Please make the window Visible
 
         // Setting the Logo of our Window
