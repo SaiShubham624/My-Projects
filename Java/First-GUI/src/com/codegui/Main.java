@@ -27,6 +27,7 @@ public class Main {
         Label.setBorder(true, border, 0x000000);
 
         // Adding the Labels to my Window and Displaying It
+
         Window.add(Label);
 //        Window.setLayout(null);
         Window.pack();
