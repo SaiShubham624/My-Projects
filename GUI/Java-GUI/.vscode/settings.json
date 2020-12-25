@@ -1,0 +1,12 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["keyword.control", "variable.language.this.java"],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    }
+}
