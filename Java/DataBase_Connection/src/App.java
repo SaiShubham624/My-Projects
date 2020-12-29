@@ -21,12 +21,14 @@ public class App {
         }
         System.out.println("Enter the Serial Number -> ");
         int Decision = Ask.nextInt();
-        Ask.close();
         // Scanner Ask1 = new Scanner(System.in);
 
         if(Decision == 1){
 
+            String Deciion =  Ask.nextLine();
+
         }
+        
     }
 
 
