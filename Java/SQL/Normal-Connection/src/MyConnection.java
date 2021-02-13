@@ -5,16 +5,16 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 
-// A Class to handle Connections, ResultSet's and Statments or PreparedStatment
+// A Class to handle Connections, ResultSet's and Statements's or PreparedStatement's
 public class MyConnection {
     // A Private Attribute
     private java.sql.Connection Conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/javasql", "root",
     "1234567890");
-    private ArrayList<String> List = new ArrayList<String>();
+    private List<String> List = new ArrayList<>();
     
     // A Constructor to Get Few Things Done before Moving Forward (Also Throws
     // Exception)
@@ -81,7 +81,7 @@ public class MyConnection {
             } catch (SQLException e) {            
                 System.out.println("Failed to add the List Please Try Again");
                 e.printStackTrace();
-                break;
+
             }
         }
         
@@ -131,12 +131,21 @@ public class MyConnection {
     }
     // Ending this Method Here!
 
+    // Creating a Method to Get All Columns in One Go
     public void GetAll() throws Exception{
-        Statement stm = Conn.createStatement();
-        ResultSet res = stm.executeQuery("SELECT * FROM TASK");
-        Iterator Iter = List.iterator();
-        while(true){
-            // have to do something
+        String Query = "";
+        for (int i = 0; i < List.size(); i++){
+            Query = "SELECT " + List.get(i) + " FROM TASK";
+            Statement stm = Conn.createStatement();
+            ResultSet res = stm.executeQuery(Query);
+            System.out.print(List.get(i) + "s -> ");
+            while( res.next() ){
+                System.out.print
+                        (res.getString(List.get(i)) + "::");
+            }
+            System.out.println();
         }
     }
+    // Ending this Method Here!
+
 }
