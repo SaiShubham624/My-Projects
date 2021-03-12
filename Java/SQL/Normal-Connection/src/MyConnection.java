@@ -134,7 +134,7 @@ public class MyConnection {
     // Creating a Method to Get All Columns in One Go
     public void GetAll() throws Exception{
         String Query = "";
-        for (int i = 0; i < List.size(); i++){
+        for ( int i = 0; i < List.size(); i++ ){
             Query = "SELECT " + List.get(i) + " FROM TASK";
             Statement stm = Conn.createStatement();
             ResultSet res = stm.executeQuery(Query);
